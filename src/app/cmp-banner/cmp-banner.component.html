@@ -1,0 +1,10 @@
+<!-- src/app/cmp-banner/cmp-banner.component.html -->
+ <div class="cmp-banner" *ngIf="showBanner"><!--show some data based on condition -->
+    <div class="cmp-message">
+      <p>We use cookies to improve your experience. By clicking "Accept", you agree to the use of cookies. You can manage your preferences below.</p>
+    </div>
+    <div class="cmp-actions">
+      <button (click)="handleConsent(true)">Accept</button>
+      <button (click)="handleConsent(false)">Decline</button>
+    </div>
+  </div>

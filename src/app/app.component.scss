@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  height: 100vh;
+
+  // Sidebar styling
+  app-sidebar {
+    width: 200px;
+    background-color: #f8f9fa;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  // Main content area styling
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ffffff; // Example background color
+  }
+}
+
+// You can add additional global styles or layout adjustments here
